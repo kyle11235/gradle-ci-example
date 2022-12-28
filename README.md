@@ -44,7 +44,7 @@
 
         - test
         
-                using project-examples/gradle-example/gradle-example-ci-server
+                from project-examples/gradle-example/gradle-example-ci-server
                 check ./jenkins/gradle.groovy
 
                         - fix
