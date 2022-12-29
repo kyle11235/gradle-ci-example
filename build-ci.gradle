@@ -1,0 +1,16 @@
+allprojects {
+  apply plugin: 'java'
+  apply plugin: 'maven-publish'
+
+  group = 'org.jfrog.example.gradle'
+  version = '1.0'
+  status = 'integration'
+
+  repositories {
+    mavenCentral()
+  }
+}
+
+// Setting this property to true will make the artifactoryPublish task
+// skip this module (in our case, the root module):
+artifactoryPublish.skip = true
