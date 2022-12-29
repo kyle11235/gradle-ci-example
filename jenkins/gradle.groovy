@@ -4,7 +4,7 @@ node {
     def buildInfo
 
     stage ('Clone') {
-        git url: 'https://github.com/kyle11235/gradle-example'
+        git url: 'https://github.com/kyle11235/gradle-ci-example'
         
     }
 
